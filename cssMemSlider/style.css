@@ -16,3 +16,11 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.mems{
+    display: flex;
+    /* overflow: hidden; */
+    flex-direction: row;
+    max-width: 40rem;
+    max-height: 26rem;
+}
