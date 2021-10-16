@@ -1,0 +1,18 @@
+
+body {
+    background: #855092;
+    
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.carousel{
+    display: flex;
+    flex-direction: column;
+}
