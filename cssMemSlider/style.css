@@ -173,19 +173,19 @@ img{
         }
 
         #slide-1:checked ~ .mems img{
-            transform: translateX(15%);
+            transform: translateX(1%);
         }
         
         #slide-2:checked ~ .mems img{
-            transform: translateX(-87%);
+            transform: translateX(-99%);
         }
         
         #slide-3:checked ~ .mems img{
-            transform: translateX(-185%);
+            transform: translateX(-198.5%);
         }
         
         #slide-4:checked ~ .mems img{
-            transform: translateX(-284.5%);
+            transform: translateX(-297%);
         } 
             
 }
