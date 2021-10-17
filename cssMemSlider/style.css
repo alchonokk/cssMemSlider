@@ -81,20 +81,18 @@ background-color: rgb(44, 65, 61);
 
 }
 
-.dot:checked{
-    background-color: rgb(70, 194, 90);
-    }
 
-#slide-1:checked ~ .container  #dot1 .btn-circle,
-#slide-2:checked ~.container #dot2 .btn-circle,
-#slide-3:checked ~ .container #dot3 .btn-circle,
-#slide-4:checked ~ .container #dot4 .btn-circle{
-   background-color: black;
+#slide-1:checked ~ .panel .radio-btn #dot1 .btn-circle,
+#slide-2:checked ~ .panel .radio-btn #dot2 .btn-circle,
+#slide-3:checked ~ .panel .radio-btn #dot3 .btn-circle,
+#slide-4:checked ~ .panel .radio-btn #dot4 .btn-circle{
+    background-color: white;
 }
+
 
 img{
     display: block;
-    transition: 0.3s;
+    transition: 0.8s;
 }
 
 
